@@ -1,0 +1,331 @@
+* {
+    /*background-color: #eeeeff;
+    font-family: Barlow;*/
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: Barlow;
+    background-color: #eeeeff;
+
+
+
+}
+
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: #7F7CAF;
+    vertical-align: middle;
+    box-shadow: 0px 1px 5px black;
+}
+
+header input{
+    height:30px;
+}
+
+header > div {
+    background-color: #7F7CAF;
+    padding-top: 20px;
+}
+
+#ulHeader {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #7F7CAF;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 25px;
+}
+
+.headerAs {
+    background-color: #7F7CAF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+p {
+    color: #242424;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100%;
+    color: #F2F2F2;
+}
+
+
+
+
+
+
+
+
+/* bonjour page*/
+
+#htmlIndex {
+    background-image: url(images/nayenNoir16.png);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position: -50% 20%;
+    /*background-position: 200px -220px;*/
+
+}
+
+
+#indexContain {
+    padding-top: 10vh;
+    width: 100vw;
+    height: 100%vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+
+
+}
+
+#indexContain > div {
+    width: 35vw;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#indexContain a {
+    font-size: 15px;
+    text-decoration: underline;
+    color: #28587b;
+}
+
+#imgMoi {
+    width: 30vw;
+    border-radius: 10px;
+}
+
+
+#indexContain p {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* minias page*/
+
+#htmlRealM {}
+
+#minias {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.uneMinia {
+    max-width: 30%;
+    min-width: 30%;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.uneImgMinia {
+    transition: transform .2s;
+
+}
+
+.uneImgMinia:hover {
+    transform: scale(1.1);
+}
+
+a {}
+
+img {
+    max-width: 80%;
+
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+}
+
+.txtMinias {
+    text-align: center;
+    width: 80%;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+/* projects pages*/
+
+
+.titlePageReals {
+    background-color: #242424;
+    width: 100%;
+    color: #F2F2F2;
+    font-family: Barlow;
+    font-size: 15px
+}
+
+h2 {
+    width: 100%;
+    color: #eeeeff;
+    background-color: #242424;
+
+}
+
+
+.projets {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.unProjet {
+    height: 100%;
+    max-width: 40%;
+    min-width: 40%;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 13px;
+    transition: transform .2s;
+}
+
+.unProjet:hover {
+    transform: scale(1.1);
+}
+
+.uneImgProjet {
+    max-width: 80%;
+    border-radius: 10px;
+
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h6 {
+    margin: 0;
+    color: #242424;
+    font-size: 15px;
+}
+
+
+.txtProjs {
+    align-self: center;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 80%;
+
+}
+
+#miniaCoverFuture {
+    width: 45%
+}
+
+#imgOiseaux {
+    width: 45%
+}
+
+
+
+
+/* contact */
+
+#htmlContact {
+    background-image: url(images/nayenNoi.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+}
+
+#mainBody {
+    height: 90%;
+}
+
+#contactDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 20
+}
+
+
+
+#contactDiv div {
+    width: 230px;
+    height: 30vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #7F7CAF;
+    border-radius: 50px;
+    background-color: #eeeeff;
+    transition: background-color .2s;
+}
+
+#contactDiv div:hover {
+    background-color: #7F7CAF;
+    
+}
+
+
+
+/* js */
+
+.pageClicked {
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid #F2F2F2;
+}
